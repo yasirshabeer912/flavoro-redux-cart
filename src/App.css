@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.icon{
+  font-size: 25px;
+  height: 100%;
+}
+.cartIcon{
+  position: relative;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.cartIcon span{
+  position: absolute;
+  top: -9px;
+  right: -7px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.categories .category{
+  padding: 10px 15px;
+  background-color: #dad5da;
+  border-radius: 6px;
+  color: black;
+  cursor: pointer;
+  transition: all ease .3s;
+}
+.categories .category:hover{
+  background-color: #23C45F;
+  color:  white;
+}
+.categories .category.active{
+  background-color: #23C45F;
+  color:  white;
+}
+
+.itemImage{
+  height: 200px;
+  object-fit: cover;
+}
+.itemImage img{
+  width: 100%;
+  height: 100%;
+}
+
+.itemDetail .price{
+  color: #23C45F;
+  font-weight: bold;
+}
+.cartBtn{
+  background-color: #23C45F;
+  color: white;
+  font-weight: bold;
+  padding: 8px 13px;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: all ease .3s;
+}
+.cartBtn:hover{
+  background-color: #1ca64f;
+}
+.description{
+  width: 250px;
+}
+.card{
+  transition: all ease .3s;
+  cursor: pointer;
+}
+.card:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
